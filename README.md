@@ -1,8 +1,10 @@
 # Stock-Market-Project-Using-Kafka
-## Introduction 
+## Description: 
 In this data engineering project I wrote a code for the producer part to process the data and consumer code to read 
-the data into AWS S3 bucket used AWS crawler to traverse the entire schema from the S3 bucket so that it can be queried 
-using AWS Athena.
+the processed data from producer into AWS S3 bucket. Used AWS crawler to traverse the entire schema from the S3 bucket 
+so that it can be queried using AWS Athena. The command_kafka.txt is for reference of commands used to start the 
+zoo-keeper services and the kafka-server at the same time it also has commands to create a topic in kafka and the
+commands for starting the producer and consumer.
 
 ## Technologies Used
 - Programming Language - Python
@@ -15,4 +17,4 @@ using AWS Athena.
 - Apache Kafka
 
 ## Dataset Used
-Here is the dataset used - indexProcessed.csv
+Here is the dataset used - https://github.com/Jeson-Antony/Stock-Market-Project-Kafka/blob/main/indexProcessed.csv
