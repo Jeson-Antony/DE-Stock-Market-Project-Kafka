@@ -15,4 +15,4 @@ using AWS Athena.
 - Apache Kafka
 
 ## Dataset Used
-Here is the dataset used - https://github.com/darshilparmar/stock-market-kafka-data-engineering-project/blob/main/indexProcessed.csv
+Here is the dataset used - indexProcessed.csv
